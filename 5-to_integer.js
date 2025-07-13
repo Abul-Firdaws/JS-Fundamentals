@@ -2,7 +2,7 @@ const arg = process.argv[2];
 const num = parseInt(arg);
 
 if (isNaN(num)) {
-  console.log("Please provide a valid integer.");
+  console.log("Not a number");
 }
 
 else {
